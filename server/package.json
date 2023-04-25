@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "start": "nodemon index",
+    "start": "nodemon index.js",
     "build": "yarn install && yarn build"
   },
   "dependencies": {
