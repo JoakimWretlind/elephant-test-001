@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "start": "nodemon index",
     "build": "yarn i"
   },
   "dependencies": {
