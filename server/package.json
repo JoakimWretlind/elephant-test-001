@@ -1,7 +1,7 @@
 {
   "scripts": {
     "start": "nodemon index",
-    "build": "yarn run build"
+    "build": "yarn install && yarn build"
   },
   "dependencies": {
     "cors": "^2.8.5",
