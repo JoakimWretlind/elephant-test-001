@@ -6,6 +6,7 @@ export const ListEvents = () => {
 
   const getAllEvents = async () => {
     try {
+      //const res = await fetch("https://localhost:5000");
       const res = await fetch("https://elephant-test-001-s.onrender.com");
       const data = await res.json();
       setEvents(data);
